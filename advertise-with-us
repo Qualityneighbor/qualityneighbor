@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quality Neighbor — QualityNeighbor.com (GitHub Pages)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --green:#3f7a2f;
+      --light-green:#eaf5e7;
+      --muted:#6b6b6b;
+      --card:#ffffff;
+      --max-width:980px;
+      --accent:#2f6a20;
+      --accent-dark:#2b5f1d;
+      --shadow: 0 6px 18px rgba(30,30,30,0.08);
+      --radius:12px;
+      font-family: 'Inter',system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      color: #222;
+    }
+    *{box-sizing:border-box}
+    body{background:#fafafa;margin:0;line-height:1.45;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:var(--max-width);margin:28px auto;padding:20px}
+
+    /* Header */
+    .site-header{background:var(--green);color:#fff;padding:28px;border-radius:14px 14px 10px 10px;display:flex;align-items:center;gap:18px}
+    .logo{width:56px;height:56px;border-radius:10px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo svg{width:34px;height:34px}
+    .site-title{font-weight:700;font-size:28px;letter-spacing:1px}
+    .site-sub{font-size:12px;opacity:0.95;margin-top:4px}
+
+    /* Card */
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin-top:18px}
+
+    /* Hero images row */
+    .hero-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .hero-img{background:#f4f4f4;border-radius:10px;padding:14px;display:flex;align-items:center;justify-content:center}
+    .hero-img svg{width:100%;height:220px;object-fit:cover;border-radius:8px}
+
+    /* small heading */
+    .muted{color:var(--muted);font-size:14px}
+
+    /* Quick questions */
+    .q-grid{display:grid;grid-template-columns:1fr 320px;gap:16px;margin-top:18px}
+    .q-left{padding:12px}
+    .q-right{background:var(--light-green);padding:14px;border-radius:10px;align-self:start}
+
+    .preview-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .preview{background:#f8f8f8;border-radius:8px;padding:10px;text-align:center}
+    .preview img{width:100%;height:120px;object-fit:cover;border-radius:6px}
+
+    h2{margin:10px 0 8px;font-size:18px}
+    h3{margin:0 0 10px;font-size:16px}
+    p{margin:8px 0}
+
+    /* feature boxes */
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px}
+    .feature{background:#fff;border-radius:10px;padding:14px;box-shadow:var(--shadow);min-height:92px}
+
+    .cta{background:var(--accent);color:#fff;padding:18px;border-radius:10px;text-align:center;margin-top:18px}
+    .cta small{display:block;opacity:0.95}
+    .btn{display:inline-block;padding:10px 16px;border-radius:8px;background:#fff;color:var(--accent-dark);font-weight:600;margin-top:10px;text-decoration:none}
+
+    .limited{background:#fff3f0;border-radius:8px;padding:12px;margin-top:14px;border:1px solid #f0d5d2}
+
+    footer{margin-top:22px;padding:18px;border-radius:10px;background:#2e6b27;color:#e9f2e6}
+    footer .cols{display:flex;gap:18px;flex-wrap:wrap}
+    footer small{display:block;opacity:0.9}
+
+    /* responsive */
+    @media (max-width:900px){
+      .hero-row{grid-template-columns:1fr}
+      .q-grid{grid-template-columns:1fr}
+      .features{grid-template-columns:1fr}
+      .preview-row{grid-template-columns:1fr}
+      .site-header{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="logo" aria-hidden>
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="10" fill="white" fill-opacity="0.08"/><path d="M16 40c6-8 18-18 30-12" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <div class="site-title">QUALITY NEIGHBOR</div>
+        <div class="site-sub">★ Hartland Ranch News — Advertise With Us</div>
+      </div>
+    </header>
+
+    <main>
+      <!-- top card -->
+      <section class="card">
+        <div class="muted">Quality Neighbor</div>
+        <div class="hero-row" style="margin-top:14px">
+          <div class="hero-img">
+            <!-- left image placeholder -->
+            <svg viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" rx="10" fill="#e9fcede"/>
+              <g transform="translate(20,20)" fill="#cfe9c9">
+                <rect x="0" y="0" width="260" height="120" rx="8"/>
+                <rect x="0" y="140" width="210" height="16" rx="6"/>
+                <rect x="0" y="164" width="110" height="12" rx="6"/>
+              </g>
+            </svg>
+          </div>
+          <div class="hero-img">
+            <!-- right image placeholder -->
+            <svg viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" rx="10" fill="#f1fbf3"/>
+              <g transform="translate(18,20)" fill="#d7f0d7">
+                <rect x="0" y="0" width="320" height="200" rx="8"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="q-grid">
+          <div class="q-left">
+            <h2>Let me ask you a few quick questions…</h2>
+            <p class="muted">A well-run community newsletter is a great way to reach real neighbors — it's personal, local, and trusted.</p>
+            <ul>
+              <li>Are you getting attention in a way that actually reaches your customers?</li>
+              <li>Do your past customers live just a few miles from you, but still can't find your store?</li>
+            </ul>
+            <p>We create a printed, monthly newsletter mailed to homes in Hartland Ranch and nearby neighborhoods.</p>
+          </div>
+          <aside class="q-right">
+            <strong>If those questions got your wheels turning…</strong>
+            <p style="margin-top:8px">You're probably who we created Quality Neighbor for.</p>
+          </aside>
+        </div>
+
+        <h3 style="margin-top:18px">See Our Newsletter In Action</h3>
+        <div class="preview-row">
+          <div class="preview"><img alt="preview" srcdata="" style="background:#eef7ee"/><div style="padding-top:8px;font-size:13px">Sample — Home Edition</div></div>
+          <div class="preview"><img alt="preview" srcdata="" style="background:#f9f6ee"/><div style="padding-top:8px;font-size:13px">Community Stories</div></div>
+          <div class="preview"><img alt="preview" srcdata="" style="background:#f7f7fb"/><div style="padding-top:8px;font-size:13px">Ad Spots & Layouts</div></div>
+        </div>
+
+      </section>
+
+      <!-- What is Quality Neighbor -->
+      <section class="card">
+        <h2>What is Quality Neighbor?</h2>
+        <p>Quality Neighbor is a printed neighborhood newsletter created for local businesses to reach neighbors in Hartland Ranch and nearby communities. It's: <strong>local</strong>, <strong>trusted</strong>, and <strong>easy to measure</strong>.</p>
+        <div class="features">
+          <div class="feature">
+            <strong>Local reach</strong>
+            <p class="muted">Directly mailed to homes in the area.</p>
+          </div>
+          <div class="feature">
+            <strong>Low cost / high value</strong>
+            <p class="muted">Simple pricing and predictable results.</p>
+          </div>
+          <div class="feature">
+            <strong>Simple design</strong>
+            <p class="muted">We design it — you get the calls.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why advertise with us -->
+      <section class="card">
+        <h2>So Why Do Local Businesses Advertise With Us?</h2>
+        <p class="muted">Because it works — here's what advertisers tell us most often:</p>
+        <div class="features" style="grid-template-columns:repeat(3,1fr);margin-top:12px">
+          <div class="feature">
+            <strong>Appears in our printed newsletter</strong>
+            <p class="muted">Neighbors hold on to the print piece.</p>
+          </div>
+          <div class="feature">
+            <strong>Lives on our website</strong>
+            <p class="muted">Longer-term visibility and links back to your business.</p>
+          </div>
+          <div class="feature">
+            <strong>Gets featured in our monthly newsletter</strong>
+            <p class="muted">Recurring exposure, builds trust.</p>
+          </div>
+        </div>
+
+        <div class="limited">
+          <strong>That's 3 forms of visibility — all in one community.</strong>
+          <p class="muted" style="margin-top:6px">Ads are available to local businesses only. Limited ad space.</p>
+        </div>
+
+      </section>
+
+      <!-- Is this a good fit -->
+      <section class="card">
+        <h2>Is This a Good Fit For Your Business?</h2>
+        <p>If you are a small local business — these ad types often see success:</p>
+        <ul>
+          <li>Service providers: landscaping, plumbing, home services</li>
+          <li>Healthcare/local clinics</li>
+          <li>Retail, restaurants, personal services</li>
+        </ul>
+
+        <div class="cta">
+          <div style="font-size:18px;font-weight:700">Reserve Your Ad Spot for $250</div>
+          <small>Ad space is limited — reserve a spot to be featured in the next issue.</small>
+          <div style="margin-top:10px">
+            <a class="btn" href="#reserve">Reserve My Spot</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
+          <div>
+            <div style="font-weight:700">Quality Neighbor</div>
+            <small>322 N. Old Orchard<br/>Some City, ST 12345</small>
+          </div>
+          <div>
+            <div style="font-weight:700">Contact Us</div>
+            <small>Email: ops@qualityneighbor.com</small>
+          </div>
+          <div>
+            <div style="font-weight:700">Get Involved</div>
+            <small>Advertise • Submit stories • Volunteer</small>
+          </div>
+        </div>
+        <div style="margin-top:12px;font-size:12px;opacity:0.95">© 2025 Quality Neighbor. All rights reserved.</div>
+      </footer>
+
+    </main>
+  </div>
+</body>
+</html>
